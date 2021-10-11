@@ -8,11 +8,43 @@ display: grid;
 if you want to control each row */
 /* grid-template-columns: repeat(auto-fill, 20px);
 if you dont know how many columns are html, them use it */
-grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+grid-template-columns: repeat(auto-fill, 200px);
 grid-auto-rows:min-content;
-justify-content:end;
-align-items: center;
-grid-gap: 10em;
+justify-content:stretch;
+align-items: stretch;
+grid-gap: 1em;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation .mainpage{
+    border: 2px dashed red;
+    flex-grow: 3; 
+    align-self: stretch;
+    /* speed of growing */  
+}
+.navigation > li {
+    padding: 1em;
+    border: 2px dashed #000;
+
+}
+.navigation > li:nth-child(3){
+    border: 2px dashed blue;
+    align-self: flex-end;
+}
+
+.navigation > li:nth-child(5){
+    border: 2px dashed green;
+    align-self: flex-start;
 }
 
 .wrapper > div{
@@ -24,4 +56,9 @@ grid-gap: 10em;
 .wrapper > div:nth-child(odd){
     background-color: #ea1;
 
+}
+
+.box0{
+    grid-column: 1/4;
+    grid-row: 1;
 }
