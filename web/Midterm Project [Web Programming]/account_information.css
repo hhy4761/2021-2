@@ -1,0 +1,63 @@
+#wrapper{
+    margin: 0;
+    background-color: rgb(202, 240, 255);
+}
+#account_infor{
+    text-align: center;
+    font-size: 14px;
+}
+#account_infor > h1{
+    color: rgb(68, 160, 218);
+    font-size: 40px;
+}
+#cur_bal{
+    font-size: 30px;
+}
+#balance{
+    font-size: 30px;
+}
+#table{
+    margin: 0;
+    text-align: left;
+    border: 2px solid black;
+    width: 100%;
+}
+#date{
+    width: 55%;
+}
+#funds_out{
+    width: 15%;
+}
+#funds_in{
+    width: 15%;
+}
+#running_balance{
+    width: 15%;
+}
+#back_wrapper{
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+}
+#back{
+    grid-column: 15/16;
+    margin: 20px;
+    width: 120px;
+    height: 80px;
+    background-color: tomato;
+    border: 5px solid orangered;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+}
+#back:active{
+    background-color: black;
+}
+#table > thead{
+    background-color: white;
+}
+#table_body > tr:nth-child(odd){
+    background-color: lightgray;
+}
+#table_body > tr:nth-child(even){
+    background-color: white;
+}
