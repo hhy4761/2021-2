@@ -1,0 +1,179 @@
+body{
+    background-color: #384047;
+    color: white;
+    position:absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 330px;
+}
+.btn_container{
+    background-color: white;
+    height: 50px;
+}
+#login_btn{
+    width: 190px;
+    height: 50px;
+}
+
+#signup_btn{
+    width: 190px;
+    height: 50px;
+}
+
+.login{
+    background-color:  rgb(46, 45, 45);
+    padding: 20px;
+}
+
+.login input[type=text]{
+    width: 340px;
+    height: 25px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+.login input[type=password]{
+    width: 340px;
+    height: 25px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+#login_submit{
+    width: 345px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgb(54, 105, 180);
+    color: white;
+    font-size: 1em;
+}
+
+.signup{
+    background-color:  rgb(46, 45, 45);
+    padding: 20px;
+}
+
+.signup input[type=text]{
+    width: 340px;
+    height: 25px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+.signup input[type=password]{
+    width: 340px;
+    height: 25px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+#signup_submit{
+    width: 345px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgb(54, 105, 180);
+    color: white;
+    font-size: 1em;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display:inherit;
+}
+
+#firstname_box{
+    position: absolute;
+    left: 105%;
+    top: 54%;
+    background-color: #2F558E;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+#lastname_box{
+    position:absolute;
+    left:105%;
+    top: 71%;
+    background-color: #2F558E;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+#sex_box{
+    position:absolute;
+    left:105%;
+    top: 82%;
+    background-color: #2F558E;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+#email_box{
+    position:absolute;
+    left:105%;
+    top: 95%;
+    background-color: #2F558E;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+#password_box{
+    position:absolute;
+    left:105%;
+    top: 112%;
+    background-color: #2F558E;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+#password2_box{
+    position:absolute;
+    left:105%;
+    top: 130%;
+    background-color: #2F558E;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+#loginemail_box{
+    position:absolute;
+    left:105%;
+    top: 53%;
+    background-color: #2F558E;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+#loginpassword_box{
+    position:absolute;
+    left:105%;
+    top: 71%;
+    background-color: #2F558E;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+#login_val{
+    color: red;
+}
