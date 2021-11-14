@@ -1,0 +1,39 @@
+* {color:blue;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+h1,h2,span{
+    background-color: blue;
+    font-family: cursive;
+}
+
+h1 {color:green;
+    background: grey; 
+    font-size: 5em;}
+
+p::first-line{
+    font-size: 50px;
+    color: red;
+    font-weight: normal;
+
+}
+
+a:hover{
+    color:yellow;
+    text-size-adjust:20px;
+     
+}
+
+a:visited{
+    color:red;
+    text-size-adjust:20px;
+     
+}
+
+#login{
+    text-align: right;
+    text-size-adjust: 10px;
+    color: black;
+    background-color: red;
+}

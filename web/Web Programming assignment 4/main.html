@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="btn_container">
+    <button id="login_btn">Login</button><button id="signup_btn" type="button">Sign up</button>
+    </div>
+    <div class="login">
+        
+        <h3>Login</h3>
+        <p id="enter_msg">Enter user name and password:</p>
+        <p id="login_val">Credential do not match</p>
+        Email <br>
+        <input type="text" id="login_email" placeholder="Email">
+        <br>
+        Password <br>
+        <input type="password" id="login_password" placeholder="Password">
+        <button id="login_submit" type="submit">Login</button>
+    </div>
+    <div class="login_box_container">
+        <p id="loginemail_box">Please enter your email</p>
+        <p id="loginpassword_box">Please enter your password</p>
+    </div>
+    <div class="login_complete">
+        <h1 class="msg">You are logged in.</h1>
+    </div>
+    <div class="signup">
+        <h3>Sign up</h3>
+        <p>Fill in the form:</p>
+        First name <br>
+        <input type="text" id="signup_firstname" placeholder="First name"> <br>
+        Last name <br>
+        <input type="text" id="signup_lastname" placeholder="Last name"><br>
+        <input type="radio" name="sex">Male
+        <input type="radio" name="sex">Female <br>
+        Email <br>
+        <input type="text" id="signup_email" placeholder="Email"><br>
+        Password <br>
+        <input type="password" id="signup_password" placeholder="password"><br>
+        Confirm password <br>
+        <input type="password" id="signup_password2" placeholder="Confirm password"><br>
+        <button id="signup_submit" type="submit">Sign up</button>
+    </div>
+    <div class="signup_complete">
+        <h1>You are signed up.</h1>
+    </div>
+    <div class="box_container">
+        <p id="firstname_box">Please enter your first name!</p>
+        <p id="lastname_box">Please enter your last name!</p>
+        <p id="sex_box">Please select your gender!</p>
+        <p id="email_box">Please enter your email!</p>
+        <p id="password_box">Please enter your password!</p>
+        <p id="password2_box">Please re-enter your password!</p>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

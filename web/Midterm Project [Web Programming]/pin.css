@@ -1,0 +1,51 @@
+#wrapper{
+    background-color: rgb(202, 240, 255);;
+}
+
+#pin{
+    text-align: center;
+    font-size: 30px;
+}
+#pin_number{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+#btn_wrapper{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    width: 250px;
+    height: 300px;
+}
+#back_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#back{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: tomato;
+    border: 3px solid orangered;
+    border-radius: 4px;
+    font-size: 25px;
+}
+#back:active{
+    background-color: black;
+}
+#btn_wrapper > button{
+    font-size: 14px;
+}
+#btn_ent{
+    color: green;
+}
+#btn_del{
+    color: red;
+}

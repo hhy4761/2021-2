@@ -1,0 +1,74 @@
+#wrapper{
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#intro > h1{
+    font-size: 45px;
+    padding-top: 270px;
+    padding-left: 600px;
+    color: rgb(0, 143, 226);
+}
+#intro > button{
+    font-size: 15px;
+    border: 1px solid lightblue;
+    color: lightskyblue;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 670px;
+    padding: 10px 70px;
+}
+#intro > button:hover{
+    box-shadow: -1px -1px 10px 3px skyblue;
+}
+#container{
+    width: 50vw;
+    margin-top: 100px;
+    margin-left: 380px;
+    text-align: center;
+}
+
+#Q{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 100px;
+}
+
+#select{
+    margin-top: -100px;
+}
+#select > button{
+    width: 80%;
+    height: 50px;
+    margin: 5px;
+    text-align: left;
+    font-size: 16px;
+}
+#select > button:hover{
+    box-shadow: 1px 1px 5px skyblue;
+}
+#select > button> span{
+    background-color: skyblue;
+    font-size: 20px;
+    padding: 12px 20px 13px;
+    margin-left: -10px;
+}
+
+#qu_score{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#cur_question{
+    margin-right: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+#cur_score{
+    margin-left: 170px;
+    text-align: center;
+    font-size: 20px;
+}

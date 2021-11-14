@@ -1,0 +1,32 @@
+#wrapper{
+    background-color: rgb(202, 240, 255);;
+}
+#intro{
+    text-align: center;
+    font-size: 30px;
+}
+#account_number{
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+#btn_wrapper{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    /* background-color: black; */
+    width: 250px;
+    height: 300px;
+}
+#btn_wrapper > button{
+    font-size: 14px;
+}
+#btn_ent{
+    color: green;
+}
+#btn_del{
+    color: red;
+}

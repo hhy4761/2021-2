@@ -1,0 +1,45 @@
+#wrapper{
+    background-color: rgb(202, 240, 255);;
+}
+#menu{
+    text-align: center;
+    font-size: 20px;
+}
+#btn_wrapper{
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    width: 500px;
+    height: 350px;
+    grid-gap: 1em;
+}
+#btn_wrapper > button{
+    font-size: 24px;
+    border: 3px solid black;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(0, 112, 146);
+}
+#btn_wrapper > button:hover{
+    color: black;
+    background-color: skyblue;
+}
+#back_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#back{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: tomato;
+    border: 3px solid orangered;
+    border-radius: 4px;
+    font-size: 25px;
+}
+#back:active{
+    background-color: black;
+}

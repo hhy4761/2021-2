@@ -1,0 +1,88 @@
+
+#transfer_wrapper{
+    background-color:  rgb(202, 240, 255);
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "from number to"
+    ". number ."
+    ". number ."
+    ". . back";
+    gap: 1em;
+}
+#number{
+    grid-area: number;
+}
+#number > input{
+    margin: 10px;
+    font-size: 25px;
+    width: 270px;
+    height: 50px;
+    text-align: center;
+
+}
+#btn_wrapper{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    /* background-color: black; */
+    width: 250px;
+    height: 350px;
+}
+#btn_wrapper > button{
+    font-weight: bold;
+    border: 2px solid black;
+}
+#btn_del{
+    color: red;
+}
+#btn_ent{
+    grid-column: 1/4;
+    color: green;
+}
+#from{
+    grid-area: from;
+    font-size: 50px;
+}
+#from > select{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(22, 35, 77);
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#to{
+    grid-area: to;
+    font-size: 50px;
+}
+#to > select{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(22, 35, 77);
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#back{
+    grid-area: back;
+}
+#back > button{
+    width: 120px;
+    height: 80px;
+    background-color: tomato;
+    border: 5px solid orangered;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+
+}
+#back >button:active{
+    background-color: black;
+}

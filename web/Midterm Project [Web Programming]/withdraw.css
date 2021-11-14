@@ -1,0 +1,163 @@
+#wrapper{
+    text-align: center;
+    background-color:  rgb(202, 240, 255);
+    font-size: 20px;
+}
+
+#link_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#link1{
+    text-align: left;
+    font-size: 25px;
+}
+#link2{
+    text-align: right;
+    font-size: 25px;
+}
+#withdraw_btn{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 2em;
+    grid-template-areas:
+    "left1 . mid1 . right1"
+    "left2 . mid2 . right2"
+    "left3 . mid3 enter right3"
+    "left4 . mid4 . right4"
+    ". . mid5 . .";
+
+}
+/* #withdraw_btn > button{
+    width: 300px;
+    height: 80px;
+} */
+
+#left1{
+    grid-area: left1;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(11, 65, 116);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    border: 5px solid black;
+}
+#left2{
+    grid-area: left2;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(11, 65, 116);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    border: 5px solid black;
+}
+#left3{
+    grid-area: left3;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(11, 65, 116);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    border: 5px solid black;
+}
+#left4{
+    grid-area: left4;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(11, 65, 116);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    border: 5px solid black;
+}  
+#right1{
+    grid-area: right1;
+    margin-left: 150px;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(11, 65, 116);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    border: 5px solid black;
+}
+#right2{
+    grid-area: right2;
+    margin-left: 150px;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(11, 65, 116);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    border: 5px solid black;
+}
+#right3{
+    grid-area: right3;
+    margin-left: 150px;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(11, 65, 116);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    border: 5px solid black;
+}
+#right4{
+    grid-area: right4;
+    margin-left: 150px;
+    width: 120px;
+    height: 80px;
+    background-color: tomato;
+    border: 5px solid orangered;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+}
+#right4:active{
+    background-color: black;
+}
+#mid1{
+    grid-area: mid1;
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+}
+#mid2{
+    grid-area: mid2;
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+}
+#mid3{
+    grid-area: mid3;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+#mid4{
+    grid-area: mid4;
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+}
+#mid5{
+    grid-area: mid5;
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+}
+#enter{
+    grid-area: enter;
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(15, 206, 126);
+    border-radius: 5px;
+    border: 5px solid green;
+}
