@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="nav">
+            <h4 id="nav_name">Tasker</h3>
+            <button id="nav_btn"><span class="nav_btn">+</span>Add New</button>
+        </nav>
+            <div class="pop"> 
+                <div class="content"> 
+                    <span class="close-button">X</span> 
+                    <h4 class="title">Add New Task</h4> 
+                    <hr>
+                    <form class="task-form"> 
+                      <label>Image url</label> 
+                      <input type="text" class="image-url-input" placeholder="https://image.com">
+                      <label>Task Title</label>
+                      <input type="text"class="task-title-input" placeholder="UI development"> 
+                      <label>Task Type</label>
+                      <input type="text" class="task-type-input" placeholder="study">
+                      <label>Task Description</label>
+                      <textarea cols="30" rows="10" class="task-description-input" placeholder="Describe your task in detail"></textarea>
+                      <hr>
+                      <input type="button" id="cancel" value="Close">
+                      <input type="submit" id="submit" value="Save changes"> 
+                    </form> 
+                </div> 
+            </div>
+            <ul class="lists">
+                
+            </ul>
+    </div>
+<script src="javascript.js"></script>
+</body>
+
+</html>
